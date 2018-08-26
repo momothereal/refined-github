@@ -996,3 +996,28 @@ body > .footer li a {
 	padding-top: 4px !important;
 	padding-bottom: 4px !important;
 }
+
+/* Code awareness */
+.code-awareness.javadoc-trigger {
+	position: absolute;
+	color: #6a737d;
+	cursor: pointer;
+	opacity: 0.5;
+}
+
+.code-awareness.javadoc-trigger:hover {
+	opacity: 1;
+}
+
+.code-awareness.javadoc-trigger svg {
+	pointer-events: none;
+}
+
+.code-awareness.javadoc-box {
+	margin: 10px 10px 5px;
+	padding: 5px 15px;
+}
+
+.code-awareness.javadoc-box p:last-of-type {
+	margin-bottom: 0;
+}
